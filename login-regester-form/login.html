@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SchoolSync Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+    <div class="login-container">
+        <div class="logo-section">
+            <img src="../images/student_logo.jpg"
+                alt="SchoolSync logo featuring an open book with graduation cap above it" />
+            <h1>SchoolSync</h1>
+            <p>School Management System</p>
+        </div>
+
+        <form id="loginForm" class="login-form" method="POST" action="login.php">
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" class="form-input" required>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" class="form-input" required>
+            </div>
+
+            <div class="form-group">
+                <label for="role">Login As</label>
+                <select id="role" name="role" class="form-input">
+                    <option value="student">Student</option>
+                    <option value="teacher">Teacher</option>
+                    <option value="admin">Administrator</option>
+                </select>
+            </div>
+
+            <button type="submit" class="submit-btn">Sign In</button>
+
+            <div class="form-footer">
+                <a href="#" class="forgot-password">Forgot password?</a>
+                <div class="mt-6 text-center text-sm text-gray-600">
+                    Don't have an account? <a href="register.html"
+                        class="text-indigo-600 hover:text-indigo-500 font-medium">Register</a>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

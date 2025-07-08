@@ -1,0 +1,36 @@
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f0f4f8;
+        }
+
+        .form-container {
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+            transition: all 0.3s ease;
+        }
+
+        .form-container:hover {
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
+        }
+
+        .hero-image {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/298e3a5c-1637-49d3-8786-908566830442.png');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .input-field:focus {
+            border-color: #4f46e5;
+            box-shadow: 0 0 0 2px rgba(79, 70, 229, 0.2);
+        }
+
+        .submit-btn {
+            background-color: #4f46e5;
+            transition: all 0.3s ease;
+        }
+
+        .submit-btn:hover {
+            background-color: #4338ca;
+            transform: translateY(-2px);
+        }
