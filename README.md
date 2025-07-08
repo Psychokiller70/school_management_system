@@ -90,10 +90,9 @@ Use the following to log into different panels:
 ---
 
 ## 📸 Screenshots
-
-> Add your screenshots here  
-> `![Admin Dashboard](screenshots/admin_dashboard.png)`  
-> `![Student View](screenshots/student_view.png)`
+ 
+> '![Admin Dashboard](preview_home.jpeg)`  
+> `![Student View](preview_login.jpeg)`
 
 ---
 
@@ -117,7 +116,7 @@ This project is licensed under the **MIT License** – see the [LICENSE](LICENSE
 ## 👨‍💻 Author
 
 Developed with ❤️ by **Psychokiller70**  
-Contact me: your.email@example.com
+Contact me: vanshkumar707878@gmail.com
 
 ---
 
