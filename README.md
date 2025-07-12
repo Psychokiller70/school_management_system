@@ -1,4 +1,9 @@
-# 🎓 School Management System
+<h1 align="center">
+  🎓 School Management System
+  <br>
+  <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge"/>
+</h1>
+
 
 Welcome to the **School Management System** — a PHP & MySQL web application designed to streamline school administration such as student management, attendance, exams, library, and more.
 
